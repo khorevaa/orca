@@ -84,33 +84,14 @@
     МассивЭлементовСборки.Добавить(Новый ПеременныеОкруженияСборки);
     МассивЭлементовСборки.Добавить(Новый СборкаПакета);
     МассивЭлементовСборки.Добавить(Новый АрхивированиеПакета);
-    МассивЭлементовСборки.Добавить(Новый СборкаFPM);
+    //МассивЭлементовСборки.Добавить(Новый СборкаFPM);
     МассивЭлементовСборки.Добавить(Новый СборкаДокерОбразов);
-    МассивЭлементовСборки.Добавить(Новый СборкаSnapcraft);
+    //МассивЭлементовСборки.Добавить(Новый СборкаSnapcraft);
     МассивЭлементовСборки.Добавить(Новый КонтрольныеСуммыФайлов);
     МассивЭлементовСборки.Добавить(Новый ЦифроваяПодпись);
     МассивЭлементовСборки.Добавить(Новый ОтправкаВХабПакетов);
     МассивЭлементовСборки.Добавить(Новый ОтправкаВРелизыГитХаба);
     МассивЭлементовСборки.Добавить(Новый ОтправкаВArtifactory);
-
-
-// defaults.Pipe{},        // load default configs
-// dist.Pipe{},            // ensure ./dist is clean
-// git.Pipe{},             // get and validate git repo state
-// effectiveconfig.Pipe{}, // writes the actual config (with defaults et al set) to dist
-// changelog.Pipe{},       // builds the release changelog
-// env.Pipe{},             // load and validate environment variables
-// build.Pipe{},           // build
-// archive.Pipe{},         // archive (tar.gz, zip, etc)
-// fpm.Pipe{},             // archive via fpm (deb, rpm, etc)
-// snapcraft.Pipe{},       // archive via snapcraft (snap)
-// checksums.Pipe{},       // checksums of the files
-// sign.Pipe{},            // sign artifacts
-// docker.Pipe{},          // create and push docker images
-// artifactory.Pipe{},     // push to artifactory
-// release.Pipe{},         // release to github
-// brew.Pipe{}, 		   // push to brew tap
-
 
 
     Возврат МассивЭлементовСборки;
